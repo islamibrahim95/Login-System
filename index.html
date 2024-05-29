@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN SYSTEM</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="login-system-card p-5 m-auto">
+                <h1 class="text-center mb-4 main-color">Smart Login System</h1>
+                <input id="nameInput" type="text" class="form-control d-none mb-3" placeholder="Enter Your Name">
+                <input id="signUpEmailInput" type="email" class="form-control d-none mb-3" placeholder="Enter Your Email">
+                <input id="signUpPasswordInput" type="password" class="form-control d-none mb-3" placeholder="Enter Password">
+
+                <input id="loginEmailInput" type="email" class="form-control mb-3" placeholder="Enter Your Email">
+                <input id="loginPasswordInput" type="password" class="form-control mb-3" placeholder="Enter Password">
+
+                <p id="alertElement" class="text-danger text-center d-none">All inputs is required</p>
+                
+                <button id="SignUpButton" class="form-control d-none mb-3">Sign Up</button>
+                <button id="LoginButton" class="form-control mb-3">Login</button>
+                <p class="text-center text-white">You have an account? 
+                    <a id="SignIn" class="text-white d-none" href="#">Sign In</a>
+                    <a id="SignUp" class="text-white" href="#">Sign Up</a>
+                </p>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

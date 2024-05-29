@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color : #17A2B8;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+body {
+    background-color: #24353F;
+}
+
+a {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+.btn:hover {
+    color: #fff !important;
+    background-color: #FFC107;
+}
+
+.nav, .welcome {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.welcome {
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    color: var(--main-color);
+}
+
+

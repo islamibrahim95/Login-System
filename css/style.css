@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color : #17A2B8;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+body {
+    background-color: #24353F;
+}
+
+
+.container {
+    margin-top: 100px;
+}
+
+input.form-control {
+    background-color: transparent;
+    color: #fff;
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: #86b7fe;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: gray;
+    font-weight: 400;
+}
+
+.login-system-card {
+    width: 80%;
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.login-card-content {
+    width: 80%;
+}
+
+button.form-control {
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+button.form-control:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
